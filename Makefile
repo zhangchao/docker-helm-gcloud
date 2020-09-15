@@ -1,6 +1,6 @@
 default: docker_build
 
-DOCKER_IMAGE ?= subhakarkotta/terraform-kubectl-helm-gcloud
+DOCKER_IMAGE ?= zhangchao/docker-helm-gcloud
 DOCKER_TAG ?= `git rev-parse --abbrev-ref HEAD`
 
 docker_build:
